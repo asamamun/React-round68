@@ -1,0 +1,41 @@
+Descriptive Questions in React for Round 53
+
+1. Write the command to create a react project named quiz-app from CLI
+Answer: npx create-react-app quiz-app
+
+2. Name two react hooks and their purpose.
+useState hook : The React useState Hook allows us to track state in a function component.
+useEffect: The useEffect Hook allows you to perform side effects in your components.
+useContext hook: React Context is a way to manage state globally. It can be used together with the useState Hook to share state between deeply nested  components more easily than with useState alone.
+useRef: The useRef Hook allows you to persist values between renders.
+useReducer: It allows for custom state logic, similar to the useState Hook.
+useCallback: The React useCallback Hook returns a memoized callback function.
+useMemo: The React useMemo Hook returns a memoized value.
+
+2.What is node_modules?
+Node_modules is a directory that is automatically created in a Node.js project when you install external libraries or dependencies using npm (Node Package Manager) or Yarn.
+
+3.Write some key features of React.js.
+    Large Ecosystem and Community,React Hooks,Virtual DOM Diffing,Component-Based Architecture,Reusable Components
+
+4. What is the role of virtual DOM in React.js?
+    the virtual DOM in React.js acts as a lightweight, efficient representation of the actual DOM, enabling React.js to optimize rendering and improve performance by selectively applying updates to the real DOM when necessary.
+
+5.What is the significance of props in React.js?
+   props are a fundamental mechanism for passing data and configuration in React.js. They enable component reusability, customization, and dynamic updates, while also facilitating clear data flow and communication between components. By leveraging props effectively, developers can build flexible, modular, and maintainable React.js applications.
+
+6.What is the purpose of React hooks?
+   React hooks enable functional components to be more powerful and expressive, while still maintaining the core principles of React's declarative and component-based nature.
+
+7. What are the advantages of using React.js for web development?
+  React.js a popular choice for web development, allowing developers to build scalable, performant, and maintainable web applications efficiently.
+
+8. What is component in react?
+Components are independent and reusable bits of code. They serve the same purpose as JavaScript functions, but work in isolation and return HTML. Components come in two types, Class components and Function components
+
+
+9.What is JSX in React.js?
+   JSX(JavaScript XML) is a powerful and intuitive extension to JavaScript that simplifies the creation of React components and the definition of user interfaces. It combines HTML-like syntax with JavaScript expressions, allowing you to build rich and dynamic user interfaces in React.js.
+
+10.What is One-Way Data Flow in react?
+     In React, data flows in a single direction, from parent components to child components, and cannot be directly mutated by child components.

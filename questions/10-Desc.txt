@@ -1,0 +1,55 @@
+1. Write the command to create a react project named quiz-app from CLI Answer: npx create-react-app quiz-app 
+
+
+2. Name two react hooks and their purpose.
+ useState hook : The React useState Hook allows us to track state in a function component.
+ useEffect: The useEffect Hook allows you to perform side effects in your components. 
+useContext hook: React Context is a way to manage state globally. It can be used together with the useState Hook to share state between deeply nested components more easily than with useState alone. 
+useRef: The useRef Hook allows you to persist values between renders. useReducer: It allows for custom state logic, similar to the useState Hook. useCallback: The React useCallback Hook returns a memoized callback function. useMemo: The React useMemo Hook returns a memoized value. 
+
+
+useState হুক : React useState হুক আমাদেরকে একটি ফাংশন কম্পোনেন্টে স্টেট ট্র্যাক করতে দেয়।
+useEffect: useEffect হুক আপনাকে আপনার উপাদানগুলিতে পার্শ্ব প্রতিক্রিয়া করতে দেয়।
+useContext হুক: প্রতিক্রিয়া প্রসঙ্গ হল বিশ্বব্যাপী রাষ্ট্র পরিচালনা করার একটি উপায়। একা useState এর চেয়ে গভীরভাবে নেস্টেড উপাদানগুলির মধ্যে স্থিতি ভাগ করার জন্য এটি useState হুকের সাথে একসাথে ব্যবহার করা যেতে পারে।
+userRef: userRef হুক আপনাকে রেন্ডারের মধ্যে মান বজায় রাখতে দেয়। 
+5124useReducer: এটি কাস্টম স্টেট লজিকের জন্য অনুমতি দেয়, ইউজস্টেট হুকের মতো। useCallback: React useCallback হুক একটি মেমোাইজ করা কলব্যাক ফাংশন প্রদান করে। useMemo: React useMemo হুক একটি memoized মান প্রদান করে।
+
+
+
+
+2.What is node_modules? 
+Node_modules is a directory that is automatically created in a Node.js project when you install external libraries or dependencies using npm (Node Package Manager) or Yarn.
+Node_modules হল একটি ডিরেক্টরি যা একটি Node.js প্রকল্পে স্বয়ংক্রিয়ভাবে তৈরি হয় যখন আপনি npm (নোড প্যাকেজ ম্যানেজার) বা সুতা ব্যবহার করে বাহ্যিক লাইব্রেরি বা নির্ভরতা ইনস্টল করেন।
+ 3.Write some key features of React.js. Large Ecosystem and Community,React Hooks,Virtual DOM Diffing,Component-Based Architecture,Reusable Components
+ 
+4. What is the role of virtual DOM in React.js? 
+the virtual DOM in React.js acts as a lightweight, efficient representation of the actual DOM, enabling React.js to optimize rendering and improve performance by selectively applying updates to the real DOM when necessary.
+React.js-এ ভার্চুয়াল DOM প্রকৃত DOM-এর হালকা, দক্ষ উপস্থাপনা হিসেবে কাজ করে,
+React.js কে রেন্ডারিং অপ্টিমাইজ করতে এবং বেছে বেছে প্রয়োগ করে কর্মক্ষমতা উন্নত করতে সক্ষম করা
+প্রয়োজনে বাস্তব DOM-এ আপডেট করা হয়
+
+
+ 5.What is the significance of props in React.js? 
+
+
+props are a fundamental mechanism for passing data and configuration in React.js. They enable component reusability, customization, and dynamic updates, while also facilitating clear data flow and communication between components. By leveraging props effectively, developers can build flexible, modular, and maintainable React.js applications. 
+প্রপস হল React.js-এ ডেটা এবং কনফিগারেশন পাস করার জন্য একটি মৌলিক প্রক্রিয়া। তারা উপাদান পুনঃব্যবহারযোগ্যতা, কাস্টমাইজেশন এবং গতিশীল আপডেট সক্ষম করে, পাশাপাশি উপাদানগুলির মধ্যে পরিষ্কার ডেটা প্রবাহ এবং যোগাযোগের সুবিধা দেয়। কার্যকরভাবে প্রপস ব্যবহার করে, ডেভেলপাররা নমনীয়, মডুলার এবং রক্ষণাবেক্ষণযোগ্য React.js অ্যাপ্লিকেশন তৈরি করতে পারে।
+
+
+6.What is the purpose of React hooks? 
+React hooks enable functional components to be more powerful and expressive, while still maintaining the core principles of React's declarative and component-based nature.
+প্রতিক্রিয়া হুকগুলি কার্যকরী উপাদানগুলিকে আরও শক্তিশালী এবং অভিব্যক্তিপূর্ণ হতে সক্ষম করে, যখন এখনও প্রতিক্রিয়ার ঘোষণামূলক এবং উপাদান-ভিত্তিক প্রকৃতির মূল নীতিগুলি বজায় রাখে।
+ 7. What are the advantages of using React.js for web development? 
+React.js a popular choice for web development, allowing developers to build scalable, performant, and maintainable web applications efficiently. 
+React.js ওয়েব ডেভেলপমেন্টের জন্য একটি জনপ্রিয় পছন্দ, যা ডেভেলপারদের দক্ষতার সাথে স্কেলেবল, পারফরম্যান্ট এবং রক্ষণাবেক্ষণযোগ্য ওয়েব অ্যাপ্লিকেশন তৈরি করতে দেয়।
+
+
+8. What is component in react? 
+Components are independent and reusable bits of code. They serve the same purpose as JavaScript functions, but work in isolation and return HTML. Components come in two types, Class components and Function components 
+উপাদানগুলি স্বাধীন এবং কোডের পুনরায় ব্যবহারযোগ্য বিট। তারা জাভাস্ক্রিপ্ট ফাংশন হিসাবে একই উদ্দেশ্য পরিবেশন করে, কিন্তু বিচ্ছিন্নভাবে কাজ করে এবং HTML ফেরত দেয়। উপাদান দুটি ধরনের আসে, ক্লাস উপাদান, এবং ফাংশন উপাদান
+9.What is JSX in React.js? 
+JSX(JavaScript XML) is a powerful and intuitive extension to JavaScript that simplifies the creation of React components and the definition of user interfaces. It combines HTML-like syntax with JavaScript expressions, allowing you to build rich and dynamic user interfaces in React.js.
+JSX(JavaScript XML) হল জাভাস্ক্রিপ্টের একটি শক্তিশালী এবং স্বজ্ঞাত এক্সটেনশন যা প্রতিক্রিয়া উপাদান এবং ব্যবহারকারী ইন্টারফেসের সংজ্ঞা তৈরিকে সহজ করে। এটি জাভাস্ক্রিপ্ট এক্সপ্রেশনের সাথে HTML-এর মতো সিনট্যাক্সকে একত্রিত করে, যা আপনাকে React.js-এ সমৃদ্ধ এবং গতিশীল ইউজার ইন্টারফেস তৈরি করতে দেয়।
+ 10.What is One-Way Data Flow in react? 
+In React, data flows in a single direction, from parent components to child components, and cannot be directly mutated by child components.
+প্রতিক্রিয়ায়, ডেটা একটি একক দিকে প্রবাহিত হয়, পিতামাতার উপাদান থেকে শিশু উপাদানগুলিতে, এবং শিশু উপাদানগুলির দ্বারা সরাসরি পরিবর্তন করা যায় না।
