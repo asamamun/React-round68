@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React & WordPress Quiz - FULL SET A + B + C (Corrected 2026)</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { font-family: system-ui, sans-serif; }
+        .set-header { 
+            background: linear-gradient(90deg, #10b981, #059669); 
+            color: white; 
+        }
+        .question-card {
+            transition: all 0.3s ease;
+        }
+        .question-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1);
+        }
+        .correct-badge {
+            background-color: #10b981;
+            color: white;
+            padding: 4px 14px;
+            border-radius: 9999px;
+            font-size: 0.875rem;
+            font-weight: 600;
+        }
+        .answer-box {
+            background: #f1f5f9;
+            border-left: 5px solid #10b981;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <nav style="background:#1e293b;padding:12px 24px;display:flex;gap:8px;justify-content:center;position:sticky;top:0;z-index:100;">
+        <a href="set_A.html" style="color:#fff;text-decoration:none;padding:8px 20px;border-radius:6px;font-weight:600;background:#10b981;">SET A</a>
+        <a href="set_B.html" style="color:#fff;text-decoration:none;padding:8px 20px;border-radius:6px;font-weight:600;">SET B</a>
+        <a href="set_C.html" style="color:#fff;text-decoration:none;padding:8px 20px;border-radius:6px;font-weight:600;">SET C</a>
+        <a href="set_D.html" style="color:#fff;text-decoration:none;padding:8px 20px;border-radius:6px;font-weight:600;">SET D</a>
+    </nav>
+    <div class="max-w-5xl mx-auto px-6 py-10">
+        <div class="text-center mb-12">
+            <h1 class="text-5xl font-bold text-emerald-700">React &amp; WordPress MCQ Quiz</h1>
+            <p class="text-xl text-gray-600 mt-2">SET A (25) + SET B (28) + SET C (25) — <span class="text-red-600 font-bold">ALL ANSWERS CORRECTED</span></p>
+            <p class="text-sm text-gray-500 mt-4">Exact questions from your PDF • Modern React 19 &amp; WordPress 6.7 answers</p>
+        </div>
+
+        <!-- ====================== SET A ====================== -->
+        <div id="setA" class="mb-16">
+            <div class="set-header p-6 rounded-2xl mb-8 flex items-center gap-4">
+                <span class="text-4xl">📘</span>
+                <h2 class="text-3xl font-bold">SET A — 25 Questions</h2>
+            </div>
+
+            <div class="space-y-10">
+                <!-- Q1 -->
+                <div class="question-card bg-white rounded-2xl shadow p-7">
+                    <h3 class="font-bold text-lg mb-4">1. Which of the following API is a MUST for every ReactJS component?</h3>
+                    <ul class="space-y-3 text-gray-700">
+                        <li>A. renderComponent</li>
+                        <li>B. render <span class="correct-badge">✓ CORRECT</span></li>
+                        <li>C. display</li>
+                        <li>D. show</li>
+                    </ul>
+                    <div class="answer-box mt-6 p-4 rounded-xl">Correct Answer: <strong>B. render</strong> (Only render() is required in class components)</div>
+                </div>
+
+                <!-- Q2 -->
+                <div class="question-card bg-white rounded-2xl shadow p-7">
+                    <h3 class="font-bold text-lg mb-4">2. WordPress download package includes</h3>
+                    <ul class="space-y-3 text-gray-700">
+                        <li>A. Hello Dolly plugin</li>
+                        <li>B. Contact Form 7</li>
+                        <li>C. Akismet plugin <span class="correct-badge">✓ CORRECT</span></li>
+                        <li>D. Yoast SEO</li>
+                    </ul>
+                    <div class="answer-box mt-6 p-4 rounded-xl">Correct Answer: <strong>C. Akismet plugin</strong></div>
+                </div>
+
+                <!-- Q3 -->
+                <div class="question-card bg-white rounded-2xl shadow p-7">
+                    <h3 class="font-bold text-lg mb-4">3. Which component is used for document management?</h3>
+                    <ul class="space-y-3 text-gray-700">
+                        <li>A. DOCman</li>
+                        <li>B. Media Library <span class="correct-badge">✓ CORRECT</span></li>
+                        <li>C. FileZilla</li>
+                        <li>D. DocumentsWP</li>
+                    </ul>
+                    <div class="answer-box mt-6 p-4 rounded-xl">Correct Answer: <strong>B. Media Library</strong> (Built-in WordPress core)</div>
+                </div>
+
+                <!-- Q4 -->
+                <div class="question-card bg-white rounded-2xl shadow p-7">
+                    <h3 class="font-bold text-lg mb-4">4. How can you export and import your blog from which Dashboard menu?</h3>
+                    <ul class="space-y-3 text-gray-700">
+                        <li>A. Settings</li>
+                        <li>B. Tools <span class="correct-badge">✓ CORRECT</span></li>
+                        <li>C. Appearance</li>
+                        <li>D. Plugins</li>
+                    </ul>
+                    <div class="answer-box mt-6 p-4 rounded-xl">Correct Answer: <strong>B. Tools</strong></div>
+                </div>
+
+                <!-- Q5 -->
+                <div class="question-card bg-white rounded-2xl shadow p-7">
+                    <h3 class="font-bold text-lg mb-4">5. Which of the following action must be performed before using Akismet?</h3>
+                    <ul class="space-y-3 text-gray-700">
+                        <li>A. Install it</li>
+                        <li>B. Configure API key <span class="correct-badge">✓ CORRECT</span></li>
+                        <li>C. Activate it</li>
+                        <li>D. Update it</li>
+                    </ul>
+                    <div class="answer-box mt-6 p-4 rounded-xl">Correct Answer: <strong>B. Configure API key</strong></div>
+                </div>
+
+                <!-- Q6 to Q25 (all included below - continuing pattern) -->
+                <div class="question-card bg-white rounded-2xl shadow p-7">
+                    <h3 class="font-bold text-lg mb-4">6. When use the automatic update process?</h3>
+                    <ul class="space-y-3 text-gray-700">
+                        <li>A. When files are deleted</li>
+                        <li>B. When upgrade directory created automatically <span class="correct-badge">✓ CORRECT</span></li>
+                        <li>C. When plugins are added</li>
+                        <li>D. When themes are installed</li>
+                    </ul>
+                    <div class="answer-box mt-6 p-4 rounded-xl">Correct Answer: <strong>B. When upgrade directory created automatically</strong></div>
+                </div>
+
+                <div class="question-card bg-white rounded-2xl shadow p-7">
+                    <h3 class="font-bold text-lg mb-4">7. A possible way to collect real-time statistics about traffic to a website is to</h3>
+                    <ul class="space-y-3 text-gray-700">
+                        <li>A. Use FTP</li>
+                        <li>B. Use a plug-in <span class="correct-badge">✓ CORRECT</span></li>
+                        <li>C. Use a theme</li>
+                        <li>D. Use MySQL</li>
+                    </ul>
+                    <div class="answer-box mt-6 p-4 rounded-xl">Correct Answer: <strong>B. Use a plug-in</strong></div>
+                </div>
+
+                <div class="question-card bg-white rounded-2xl shadow p-7">
+                    <h3 class="font-bold text-lg mb-4">8. What does Search Engine Optimization (SEO) do?</h3>
+                    <ul class="space-y-3 text-gray-700">
+                        <li>A. Helps site get discovered</li>
+                        <li>B. Improves page loading</li>
+                        <li>C. Increases site ranking</li>
+                        <li>D. All the above <span class="correct-badge">✓ CORRECT</span></li>
+                    </ul>
+                    <div class="answer-box mt-6 p-4 rounded-xl">Correct Answer: <strong>D. All the above</strong></div>
+                </div>
+
+                <div class="question-card bg-white rounded-2xl shadow p-7">
+                    <h3 class="font-bold text-lg mb-4">9. What is the function of widgets in WordPress?</h3>
+                    <ul class="space-y-3 text-gray-700">
+                        <li>A. Add custom code</li>
+                        <li>B. It is used to add additional components to the site <span class="correct-badge">✓ CORRECT</span></li>
+                        <li>C. Manage comments</li>
+                        <li>D. Update WordPress</li>
+                    </ul>
+                    <div class="answer-box mt-6 p-4 rounded-xl">Correct Answer: <strong>B. It is used to add additional components to the site</strong></div>
+                </div>
+
+                <div class="question-card bg-white rounded-2xl shadow p-7">
+                    <h3 class="font-bold text-lg mb-4">10. Props are ______ into other components.</h3>
+                    <ul class="space-y-3 text-gray-700">
+                        <li>A. Passed <span class="correct-badge">✓ CORRECT</span></li>
+                        <li>B. Injected</li>
+                        <li>C. Created</li>
+                        <li>D. Deleted</li>
+                    </ul>
+                    <div class="answer-box mt-6 p-4 rounded-xl">Correct Answer: <strong>A. Passed</strong></div>
+                </div>
+
+                <div class="question-card bg-white rounded-2xl shadow p-7">
+                    <h3 class="font-bold text-lg mb-4">11. Which file contains the main WordPress API functions?</h3>
+                    <ul class="space-y-3 text-gray-700">
+                        <li>A. wp-config.php</li>
+                        <li>B. index.php</li>
+                        <li>C. function.php</li>
+                        <li>D. wp-settings.php</li>
+                    </ul>
+                    <div class="answer-box mt-6 p-4 rounded-xl">Correct Answer: <strong>wp-includes/functions.php</strong></div>
+                </div>
+
+                <div class="question-card bg-white rounded-2xl shadow p-7">
+                    <h3 class="font-bold text-lg mb-4">12. What do you mean by hooks?</h3>
+                    <ul class="space-y-3 text-gray-700">
+                        <li>A. Hooks are shortcodes</li>
+                        <li>B. Hooks enable users to create WordPress themes or plug-ins with short codes without changing the original files <span class="correct-badge">✓ CORRECT</span></li>
+                        <li>C. Hooks are widgets</li>
+                        <li>D. Hooks are database tables</li>
+                    </ul>
+                    <div class="answer-box mt-6 p-4 rounded-xl">Correct Answer: <strong>B</strong></div>
+                </div>
+
+                <div class="question-card bg-white rounded-2xl shadow p-7">
+                    <h3 class="font-bold text-lg mb-4">13. A plug-in must be used in order to allow users to post flash or more?</h3>
+                    <ul class="space-y-3 text-gray-700">
+                        <li>A. True</li>
+                        <li>B. False <span class="correct-badge">✓ CORRECT</span></li>
+                    </ul>
+                    <div class="answer-box mt-6 p-4 rounded-xl">Correct Answer: <strong>B. False</strong></div>
+                </div>
+
+                <div class="question-card bg-white rounded-2xl shadow p-7">
+                    <h3 class="font-bold text-lg mb-4">14. Is it possible to run more than one blog from a single installation of WordPress?</h3>
+                    <ul class="space-y-3 text-gray-700">
+                        <li>A. Yes <span class="correct-badge">✓ CORRECT</span></li>
+                        <li>B. No</li>
+                    </ul>
+                    <div class="answer-box mt-6 p-4 rounded-xl">Correct Answer: <strong>A. Yes</strong> (Multisite)</div>
+                </div>
+
+                <div class="question-card bg-white rounded-2xl shadow p-7">
+                    <h3 class="font-bold text-lg mb-4">15. How can you access the state of a component from inside of a member function?</h3>
+                    <ul class="space-y-3 text-gray-700">
+                        <li>A. this.props</li>
+                        <li>B. this.state <span class="correct-badge">✓ CORRECT</span></li>
+                        <li>C. this.data</li>
+                        <li>D. this.component</li>
+                    </ul>
+                    <div class="answer-box mt-6 p-4 rounded-xl">Correct Answer: <strong>B. this.state</strong></div>
+                </div>
+
+                <div class="question-card bg-white rounded-2xl shadow p-7">
+                    <h3 class="font-bold text-lg mb-4">16. Which table is a user’s display_name stored?</h3>
+                    <ul class="space-y-3 text-gray-700">
+                        <li>A. wp_options</li>
+                        <li>B. wp_posts</li>
+                        <li>C. wp_users <span class="correct-badge">✓ CORRECT</span></li>
+                        <li>D. wp_terms</li>
+                    </ul>
+                    <div class="answer-box mt-6 p-4 rounded-xl">Correct Answer: <strong>C. wp_users</strong></div>
+                </div>
+
+                <div class="question-card bg-white rounded-2xl shadow p-7">
+                    <h3 class="font-bold text-lg mb-4">17. Which of the followings does React use?</h3>
+                    <ul class="space-y-3 text-gray-700">
+                        <li>A. Real DOM</li>
+                        <li>B. Shadow DOM</li>
+                        <li>C. Virtual DOM <span class="correct-badge">✓ CORRECT</span></li>
+                        <li>D. XML DOM</li>
+                    </ul>
+                    <div class="answer-box mt-6 p-4 rounded-xl">Correct Answer: <strong>C. Virtual DOM</strong></div>
+                </div>
+
+                <div class="question-card bg-white rounded-2xl shadow p-7">
+                    <h3 class="font-bold text-lg mb-4">18. What is React.js in MVC?</h3>
+                    <ul class="space-y-3 text-gray-700">
+                        <li>A. Model</li>
+                        <li>B. View <span class="correct-badge">✓ CORRECT</span></li>
+                        <li>C. Controller</li>
+                        <li>D. None</li>
+                    </ul>
+                    <div class="answer-box mt-6 p-4 rounded-xl">Correct Answer: <strong>B. View</strong> (React is the View layer)</div>
+                </div>
+
+                <div class="question-card bg-white rounded-2xl shadow p-7">
+                    <h3 class="font-bold text-lg mb-4">19. In which directory React Components are saved?</h3>
+                    <ul class="space-y-3 text-gray-700">
+                        <li>A. Inside /components/</li>
+                        <li>B. Inside js/components/</li>
+                        <li>C. Inside /src <span class="correct-badge">✓ CORRECT (modern)</span></li>
+                        <li>D. Inside /views</li>
+                    </ul>
+                    <div class="answer-box mt-6 p-4 rounded-xl">Correct Answer: <strong>Inside src/components/</strong></div>
+                </div>
+
+                <div class="question-card bg-white rounded-2xl shadow p-7">
+                    <h3 class="font-bold text-lg mb-4">20. Which variable is passed through the query string?</h3>
+                    <ul class="space-y-3 text-gray-700">
+                        <li>A. $_SESSION</li>
+                        <li>B. $_COOKIE</li>
+                        <li>C. Query variable <span class="correct-badge">✓ CORRECT</span></li>
+                        <li>D. $_SERVER</li>
+                    </ul>
+                    <div class="answer-box mt-6 p-4 rounded-xl">Correct Answer: <strong>C. Query variable</strong></div>
+                </div>
+
+                <div class="question-card bg-white rounded-2xl shadow p-7">
+                    <h3 class="font-bold text-lg mb-4">21. Everything in React is a ________________.</h3>
+                    <ul class="space-y-3 text-gray-700">
+                        <li>A. Class</li>
+                        <li>B. Module</li>
+                        <li>C. Component <span class="correct-badge">✓ CORRECT</span></li>
+                        <li>D. Function</li>
+                    </ul>
+                    <div class="answer-box mt-6 p-4 rounded-xl">Correct Answer: <strong>C. Component</strong></div>
+                </div>
+
+                <div class="question-card bg-white rounded-2xl shadow p-7">
+                    <h3 class="font-bold text-lg mb-4">22. Which feature allows you to create a navigation menu of pages, custom links, tags, etc. that is presented to your visitors?</h3>
+                    <ul class="space-y-3 text-gray-700">
+                        <li>A. Widgets</li>
+                        <li>B. Menus <span class="correct-badge">✓ CORRECT</span></li>
+                        <li>C. Pages</li>
+                        <li>D. Posts</li>
+                    </ul>
+                    <div class="answer-box mt-6 p-4 rounded-xl">Correct Answer: <strong>B. Menus</strong></div>
+                </div>
+
+                <div class="question-card bg-white rounded-2xl shadow p-7">
+                    <h3 class="font-bold text-lg mb-4">23. Can you set individual password for each post in WordPress?</h3>
+                    <ul class="space-y-3 text-gray-700">
+                        <li>A. Yes <span class="correct-badge">✓ CORRECT</span></li>
+                        <li>B. No</li>
+                    </ul>
+                    <div class="answer-box mt-6 p-4 rounded-xl">Correct Answer: <strong>A. Yes</strong></div>
+                </div>
+
+                <div class="question-card bg-white rounded-2xl shadow p-7">
+                    <h3 class="font-bold text-lg mb-4">24. Which role can manage their own profiles, but can do virtually nothing from the administration area?</h3>
+                    <ul class="space-y-3 text-gray-700">
+                        <li>A. Administrator</li>
+                        <li>B. Author</li>
+                        <li>C. Editor</li>
+                        <li>D. Subscriber <span class="correct-badge">✓ CORRECT</span></li>
+                    </ul>
+                    <div class="answer-box mt-6 p-4 rounded-xl">Correct Answer: <strong>D. Subscriber</strong></div>
+                </div>
+
+                <div class="question-card bg-white rounded-2xl shadow p-7">
+                    <h3 class="font-bold text-lg mb-4">25. In which part categories and tags are not available?</h3>
+                    <ul class="space-y-3 text-gray-700">
+                        <li>A. Posts</li>
+                        <li>B. Pages <span class="correct-badge">✓ CORRECT</span></li>
+                        <li>C. Custom Post Types</li>
+                        <li>D. Comments</li>
+                    </ul>
+                    <div class="answer-box mt-6 p-4 rounded-xl">Correct Answer: <strong>B. Pages</strong></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

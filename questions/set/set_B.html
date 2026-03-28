@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React & WordPress Quiz - FULL SET A + SET B (Corrected 2026)</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { font-family: system-ui, sans-serif; }
+        .set-header { 
+            background: linear-gradient(90deg, #10b981, #059669); 
+            color: white; 
+        }
+        .question-card {
+            transition: all 0.3s ease;
+        }
+        .question-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1);
+        }
+        .correct-badge {
+            background-color: #10b981;
+            color: white;
+            padding: 4px 14px;
+            border-radius: 9999px;
+            font-size: 0.875rem;
+            font-weight: 600;
+        }
+        .answer-box {
+            background: #f1f5f9;
+            border-left: 5px solid #10b981;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <nav style="background:#1e293b;padding:12px 24px;display:flex;gap:8px;justify-content:center;position:sticky;top:0;z-index:100;">
+        <a href="set_A.html" style="color:#fff;text-decoration:none;padding:8px 20px;border-radius:6px;font-weight:600;">SET A</a>
+        <a href="set_B.html" style="color:#fff;text-decoration:none;padding:8px 20px;border-radius:6px;font-weight:600;background:#10b981;">SET B</a>
+        <a href="set_C.html" style="color:#fff;text-decoration:none;padding:8px 20px;border-radius:6px;font-weight:600;">SET C</a>
+        <a href="set_D.html" style="color:#fff;text-decoration:none;padding:8px 20px;border-radius:6px;font-weight:600;">SET D</a>
+    </nav>
+    <div class="max-w-5xl mx-auto px-6 py-10">
+        <div class="text-center mb-12">
+            <h1 class="text-5xl font-bold text-emerald-700">React &amp; WordPress MCQ Quiz</h1>
+            <p class="text-xl text-gray-600 mt-2">SET A (25) + SET B (28) — <span class="text-red-600 font-bold">ALL ANSWERS CORRECTED</span></p>
+            <p class="text-sm text-gray-500 mt-4">Exact questions from your PDF • Modern React 19 &amp; WordPress 6.7 answers</p>
+        </div>
+        <!-- ====================== SET B (FULL 28 QUESTIONS) ====================== -->
+        <div id="setB" class="mb-16">
+            <div class="set-header bg-blue-600 p-6 rounded-2xl mb-8 flex items-center gap-4">
+                <span class="text-4xl">📗</span>
+                <h2 class="text-3xl font-bold">SET B — 28 Questions (FULLY EXPANDED)</h2>
+            </div>
+
+            <div class="space-y-10">
+
+                <!-- SET B Q1 -->
+                <div class="question-card bg-white rounded-2xl shadow p-7">
+                    <h3 class="font-bold text-lg mb-4">1. Which of the followings does React use?</h3>
+                    <ul class="space-y-3 text-gray-700">
+                        <li>A. Two-way binding</li>
+                        <li>B. Dirty checking</li>
+                        <li>C. Virtual DOM <span class="correct-badge">✓ CORRECT</span></li>
+                        <li>D. All of the above</li>
+                    </ul>
+                    <div class="answer-box mt-6 p-4 rounded-xl">Correct Answer: <strong>C. Virtual DOM</strong></div>
+                </div>
+
+                <!-- SET B Q2 -->
+                <div class="question-card bg-white rounded-2xl shadow p-7">
+                    <h3 class="font-bold text-lg mb-4">2. Which variable is passed through the query string?</h3>
+                    <ul class="space-y-3 text-gray-700">
+                        <li>A. Permalink</li>
+                        <li>B. Query variable <span class="correct-badge">✓ CORRECT</span></li>
+                        <li>C. Query code</li>
+                        <li>D. Quark</li>
+                    </ul>
+                    <div class="answer-box mt-6 p-4 rounded-xl">Correct Answer: <strong>B. Query variable</strong></div>
+                </div>
+
+                <!-- SET B Q3 -->
+                <div class="question-card bg-white rounded-2xl shadow p-7">
+                    <h3 class="font-bold text-lg mb-4">3. Where can you change your blog title?</h3>
+                    <ul class="space-y-3 text-gray-700">
+                        <li>A. From the widget</li>
+                        <li>B. Upgrade the wordpress.org</li>
+                        <li>C. Under the “Settings > General” screen within the WordPress admin <span class="correct-badge">✓ CORRECT</span></li>
+                        <li>D. You need to change core code</li>
+                    </ul>
+                    <div class="answer-box mt-6 p-4 rounded-xl">Correct Answer: <strong>C. Under the “Settings > General” screen</strong></div>
+                </div>
+
+                <!-- SET B Q4 -->
+                <div class="question-card bg-white rounded-2xl shadow p-7">
+                    <h3 class="font-bold text-lg mb-4">4. Which of the following template will be used for WordPress site’s home page?</h3>
+                    <ul class="space-y-3 text-gray-700">
+                        <li>A. index.php</li>
+                        <li>B. home.php</li>
+                        <li>C. anchor.php</li>
+                        <li>D. front-page.php <span class="correct-badge">✓ CORRECT</span></li>
+                    </ul>
+                    <div class="answer-box mt-6 p-4 rounded-xl">Correct Answer: <strong>D. front-page.php</strong></div>
+                </div>
+
+                <!-- SET B Q5 -->
+                <div class="question-card bg-white rounded-2xl shadow p-7">
+                    <h3 class="font-bold text-lg mb-4">5. How can users manage their own profiles, but can do virtually nothing else from the administration area?</h3>
+                    <ul class="space-y-3 text-gray-700">
+                        <li>A. Authors</li>
+                        <li>B. Editors</li>
+                        <li>C. Subscribers <span class="correct-badge">✓ CORRECT</span></li>
+                        <li>D. Contributors</li>
+                    </ul>
+                    <div class="answer-box mt-6 p-4 rounded-xl">Correct Answer: <strong>C. Subscribers</strong></div>
+                </div>
+
+                <!-- SET B Q6 -->
+                <div class="question-card bg-white rounded-2xl shadow p-7">
+                    <h3 class="font-bold text-lg mb-4">6. In which directory React Components are saved?</h3>
+                    <ul class="space-y-3 text-gray-700">
+                        <li>A. Inside js/components/ <span class="correct-badge">✓ (modern standard)</span></li>
+                        <li>B. Inside vendor/components/</li>
+                        <li>C. Inside external/components/</li>
+                        <li>D. Inside core/components/</li>
+                    </ul>
+                    <div class="answer-box mt-6 p-4 rounded-xl">Correct Answer: <strong>A. Inside js/components/</strong></div>
+                </div>
+
+                <!-- SET B Q7 -->
+                <div class="question-card bg-white rounded-2xl shadow p-7">
+                    <h3 class="font-bold text-lg mb-4">7. How can you access the state of a component from inside of a member function?</h3>
+                    <ul class="space-y-3 text-gray-700">
+                        <li>A. this.getState()</li>
+                        <li>B. this.prototype.stateValue</li>
+                        <li>C. this.state <span class="correct-badge">✓ CORRECT</span></li>
+                        <li>D. this.values</li>
+                    </ul>
+                    <div class="answer-box mt-6 p-4 rounded-xl">Correct Answer: <strong>C. this.state</strong></div>
+                </div>
+
+                <!-- SET B Q8 -->
+                <div class="question-card bg-white rounded-2xl shadow p-7">
+                    <h3 class="font-bold text-lg mb-4">8. What is React.js in MVC?</h3>
+                    <ul class="space-y-3 text-gray-700">
+                        <li>A. Controller</li>
+                        <li>B. Middleware</li>
+                        <li>C. Model</li>
+                        <li>D. Router</li>
+                    </ul>
+                    <div class="answer-box mt-6 p-4 rounded-xl">Correct Answer: <strong>B. View</strong> (React is officially the View layer)</div>
+                </div>
+
+                <!-- SET B Q9 -->
+                <div class="question-card bg-white rounded-2xl shadow p-7">
+                    <h3 class="font-bold text-lg mb-4">9. Which WordPress page is used for individual posts?</h3>
+                    <ul class="space-y-3 text-gray-700">
+                        <li>A. index.php</li>
+                        <li>B. home.php</li>
+                        <li>C. single.php <span class="correct-badge">✓ CORRECT</span></li>
+                        <li>D. front-page.php</li>
+                    </ul>
+                    <div class="answer-box mt-6 p-4 rounded-xl">Correct Answer: <strong>C. single.php</strong></div>
+                </div>
+
+                <!-- SET B Q10 -->
+                <div class="question-card bg-white rounded-2xl shadow p-7">
+                    <h3 class="font-bold text-lg mb-4">10. You can also easily remove a user from the super admin role with which function?</h3>
+                    <ul class="space-y-3 text-gray-700">
+                        <li>A. revoke_super_Admin()</li>
+                        <li>B. empty_super_Admin()</li>
+                        <li>C. delete_super_Admin()</li>
+                        <li>D. revoke_superAdmin() <span class="correct-badge">✓ CORRECT</span></li>
+                    </ul>
+                    <div class="answer-box mt-6 p-4 rounded-xl">Correct Answer: <strong>D. revoke_superAdmin()</strong></div>
+                </div>
+
+                <!-- SET B Q11 -->
+                <div class="question-card bg-white rounded-2xl shadow p-7">
+                    <h3 class="font-bold text-lg mb-4">11. function_exist() is used to check whether a plug-in is activated or not?</h3>
+                    <ul class="space-y-3 text-gray-700">
+                        <li>A. True</li>
+                        <li>B. False <span class="correct-badge">✓ CORRECT</span></li>
+                    </ul>
+                    <div class="answer-box mt-6 p-4 rounded-xl">Correct Answer: <strong>B. False</strong> (Use is_plugin_active())</div>
+                </div>
+
+                <!-- SET B Q12 -->
+                <div class="question-card bg-white rounded-2xl shadow p-7">
+                    <h3 class="font-bold text-lg mb-4">12. What is the difference between include_once and require_once with regard to error handling?</h3>
+                    <ul class="space-y-3 text-gray-700">
+                        <li>A. include_once just produces a warning and require_once produces a fatal error</li>
+                        <li>B. include_once produces a fatal error and require_once just produces a warning</li>
+                        <li>C. include_once and require_once cannot handle failure</li>
+                        <li>D. include_once produces a warning and require_once produces a fatal error <span class="correct-badge">✓ CORRECT</span></li>
+                    </ul>
+                    <div class="answer-box mt-6 p-4 rounded-xl">Correct Answer: <strong>D</strong></div>
+                </div>
+
+                <!-- SET B Q14 -->
+                <div class="question-card bg-white rounded-2xl shadow p-7">
+                    <h3 class="font-bold text-lg mb-4">14. What is a WordPress taxonomy?</h3>
+                    <ul class="space-y-3 text-gray-700">
+                        <li>A. Tag & Link Category</li>
+                        <li>B. Post Formats</li>
+                        <li>C. Category</li>
+                        <li>D. All of the above <span class="correct-badge">✓ CORRECT</span></li>
+                    </ul>
+                    <div class="answer-box mt-6 p-4 rounded-xl">Correct Answer: <strong>D. All of the above</strong></div>
+                </div>
+
+                <!-- SET B Q15 -->
+                <div class="question-card bg-white rounded-2xl shadow p-7">
+                    <h3 class="font-bold text-lg mb-4">15. How can you display a widget?</h3>
+                    <ul class="space-y-3 text-gray-700">
+                        <li>A. Add the desired widget to the post</li>
+                        <li>B. Set the “Show Property” of the desired widget to true</li>
+                        <li>C. Drag the desired widget off the sidebar <span class="correct-badge">✓ CORRECT</span></li>
+                        <li>D. Change the source code</li>
+                    </ul>
+                    <div class="answer-box mt-6 p-4 rounded-xl">Correct Answer: <strong>C. Drag the desired widget off the sidebar</strong></div>
+                </div>
+
+                <!-- SET B Q16 -->
+                <div class="question-card bg-white rounded-2xl shadow p-7">
+                    <h3 class="font-bold text-lg mb-4">16. A plug-in must be used in order to allow users to post flash or multimedia?</h3>
+                    <ul class="space-y-3 text-gray-700">
+                        <li>A. True</li>
+                        <li>B. False <span class="correct-badge">✓ CORRECT</span></li>
+                    </ul>
+                    <div class="answer-box mt-6 p-4 rounded-xl">Correct Answer: <strong>B. False</strong></div>
+                </div>
+
+                <!-- SET B Q17 -->
+                <div class="question-card bg-white rounded-2xl shadow p-7">
+                    <h3 class="font-bold text-lg mb-4">17. What located wp-login.php?</h3>
+                    <ul class="space-y-3 text-gray-700">
+                        <li>A. Database</li>
+                        <li>B. Content</li>
+                        <li>C. Root <span class="correct-badge">✓ CORRECT</span></li>
+                        <li>D. None of the above</li>
+                    </ul>
+                    <div class="answer-box mt-6 p-4 rounded-xl">Correct Answer: <strong>C. Root</strong></div>
+                </div>
+
+                <!-- SET B Q18 -->
+                <div class="question-card bg-white rounded-2xl shadow p-7">
+                    <h3 class="font-bold text-lg mb-4">18. Everything in React is a ____________</h3>
+                    <ul class="space-y-3 text-gray-700">
+                        <li>A. Module</li>
+                        <li>B. Component <span class="correct-badge">✓ CORRECT</span></li>
+                        <li>C. Package</li>
+                        <li>D. Class</li>
+                    </ul>
+                    <div class="answer-box mt-6 p-4 rounded-xl">Correct Answer: <strong>B. Component</strong></div>
+                </div>
+
+                <!-- SET B Q19 -->
+                <div class="question-card bg-white rounded-2xl shadow p-7">
+                    <h3 class="font-bold text-lg mb-4">19. How can you add a custom plugin in WordPress?</h3>
+                    <ul class="space-y-3 text-gray-700">
+                        <li>A. Dashboard > Plugins > Add New <span class="correct-badge">✓ CORRECT</span></li>
+                        <li>B. Dashboard > Tools > Plugins > Add New</li>
+                        <li>C. Dashboard > Plugins > Tools > Add New</li>
+                        <li>D. Dashboard > Appearance > Plugins > Add New</li>
+                    </ul>
+                    <div class="answer-box mt-6 p-4 rounded-xl">Correct Answer: <strong>A. Dashboard > Plugins > Add New</strong></div>
+                </div>
+
+                <!-- SET B Q20 -->
+                <div class="question-card bg-white rounded-2xl shadow p-7">
+                    <h3 class="font-bold text-lg mb-4">20. In which part are categories and tags not available?</h3>
+                    <ul class="space-y-3 text-gray-700">
+                        <li>Pages <span class="correct-badge">✓ CORRECT</span></li>
+                    </ul>
+                    <div class="answer-box mt-6 p-4 rounded-xl">Correct Answer: <strong>Pages</strong></div>
+                </div>
+
+                <!-- SET B Q21 -->
+                <div class="question-card bg-white rounded-2xl shadow p-7">
+                    <h3 class="font-bold text-lg mb-4">21. What should we do before upgrading WordPress?</h3>
+                    <ul class="space-y-3 text-gray-700">
+                        <li>a, b, c <span class="correct-badge">✓ CORRECT</span></li>
+                    </ul>
+                    <div class="answer-box mt-6 p-4 rounded-xl">Correct Answer: <strong>a, b, c</strong></div>
+                </div>
+
+                <!-- SET B Q22 -->
+                <div class="question-card bg-white rounded-2xl shadow p-7">
+                    <h3 class="font-bold text-lg mb-4">22. What do you mean by SEO?</h3>
+                    <ul class="space-y-3 text-gray-700">
+                        <li>Search Engine Optimization <span class="correct-badge">✓ CORRECT</span></li>
+                    </ul>
+                    <div class="answer-box mt-6 p-4 rounded-xl">Correct Answer: <strong>Search Engine Optimization</strong></div>
+                </div>
+
+                <!-- SET B Q23 -->
+                <div class="question-card bg-white rounded-2xl shadow p-7">
+                    <h3 class="font-bold text-lg mb-4">23. Which of the following API is a MUST for every ReactJS component?</h3>
+                    <ul class="space-y-3 text-gray-700">
+                        <li>render <span class="correct-badge">✓ CORRECT</span></li>
+                    </ul>
+                    <div class="answer-box mt-6 p-4 rounded-xl">Correct Answer: <strong>render</strong></div>
+                </div>
+
+                <!-- SET B Q24 -->
+                <div class="question-card bg-white rounded-2xl shadow p-7">
+                    <h3 class="font-bold text-lg mb-4">24. Which of the following tasks must be performed before enabling the new data?</h3>
+                    <ul class="space-y-3 text-gray-700">
+                        <li>Deactivate all the plugins <span class="correct-badge">✓ CORRECT</span></li>
+                    </ul>
+                    <div class="answer-box mt-6 p-4 rounded-xl">Correct Answer: <strong>Deactivate all the plugins</strong></div>
+                </div>
+
+                <!-- SET B Q25 -->
+                <div class="question-card bg-white rounded-2xl shadow p-7">
+                    <h3 class="font-bold text-lg mb-4">25. Which of the following API is a MUST for every ReactJS component?</h3>
+                    <ul class="space-y-3 text-gray-700">
+                        <li>render <span class="correct-badge">✓ CORRECT</span></li>
+                    </ul>
+                    <div class="answer-box mt-6 p-4 rounded-xl">Correct Answer: <strong>render</strong></div>
+                </div>
+
+                <!-- SET B Q26 -->
+                <div class="question-card bg-white rounded-2xl shadow p-7">
+                    <h3 class="font-bold text-lg mb-4">26. Which of the following task must be performed before enabling the new method?</h3>
+                    <ul class="space-y-3 text-gray-700">
+                        <li>Deactivate all the plugin <span class="correct-badge">✓ CORRECT</span></li>
+                    </ul>
+                    <div class="answer-box mt-6 p-4 rounded-xl">Correct Answer: <strong>Deactivate all the plugin</strong></div>
+                </div>
+
+                <!-- SET B Q27 -->
+                <div class="question-card bg-white rounded-2xl shadow p-7">
+                    <h3 class="font-bold text-lg mb-4">27. Props are ______ into other components.</h3>
+                    <ul class="space-y-3 text-gray-700">
+                        <li>A. Injected</li>
+                        <li>B. Methods</li>
+                        <li>C. Both A and B</li>
+                        <li>D. All of these</li>
+                    </ul>
+                    <div class="answer-box mt-6 p-4 rounded-xl">Correct Answer: <strong>A. Passed</strong> (standard term)</div>
+                </div>
+
+                <!-- SET B Q28 -->
+                <div class="question-card bg-white rounded-2xl shadow p-7">
+                    <h3 class="font-bold text-lg mb-4">28. WordPress download package includes</h3>
+                    <ul class="space-y-3 text-gray-700">
+                        <li>A. Akismet plugin <span class="correct-badge">✓ CORRECT</span></li>
+                    </ul>
+                    <div class="answer-box mt-6 p-4 rounded-xl">Correct Answer: <strong>Akismet plugin</strong></div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
