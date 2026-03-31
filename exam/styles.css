@@ -1,0 +1,20 @@
+body {
+  background: #f8f9fa;
+}
+
+.exam-card {
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.exam-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.08);
+}
+
+.question-card {
+  border-left: 4px solid #0d6efd;
+}
+
+.score-badge {
+  font-size: 1rem;
+}

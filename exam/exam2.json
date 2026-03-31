@@ -1,0 +1,27 @@
+{
+  "examId": "exam2",
+  "title": "React Exam 2 - Props and Events",
+  "totalMarks": 20,
+  "questions": [
+    {"id": "1", "question": "In class03, App passes color and brandName to Car using:", "options": ["state only", "props", "context only", "router params"], "answer": 1},
+    {"id": "2", "question": "Default prop values in Car component are provided by:", "options": ["if statements", "function parameter destructuring", "JSON schema", "setState"], "answer": 1},
+    {"id": "3", "question": "carArray.map(...) in class03 is used to:", "options": ["fetch API", "render multiple Car components", "sort CSS", "handle routes"], "answer": 1},
+    {"id": "4", "question": "In class04 App, search state initial value is:", "options": ["empty string", "React", "Redux", "null"], "answer": 1},
+    {"id": "5", "question": "handleChange in class04 updates state from:", "options": ["event.target.value", "event.keyCode", "window.location", "localStorage only"], "answer": 0},
+    {"id": "6", "question": "filteredStories is created using:", "options": ["reduce()", "forEach()", "filter()", "slice()"], "answer": 2},
+    {"id": "7", "question": "Purpose of toLowerCase() in search filter is:", "options": ["reduce memory", "case-insensitive matching", "convert to number", "remove spaces"], "answer": 1},
+    {"id": "8", "question": "OurForm receives handleChange and search via:", "options": ["router", "props", "redux", "session"], "answer": 1},
+    {"id": "9", "question": "In controlled input, value is tied to:", "options": ["DOM only", "component state", "CSS", "URL"], "answer": 1},
+    {"id": "10", "question": "In class04 Stories, each Post key is:", "options": ["index", "story.objectID", "story.title", "story.author"], "answer": 1},
+    {"id": "11", "question": "Why is key important in mapped components?", "options": ["for validation", "to help React track list items", "for database", "for bootstrapping"], "answer": 1},
+    {"id": "12", "question": "Event onChange is commonly used with:", "options": ["input controls", "image tags only", "script tags", "meta tags"], "answer": 0},
+    {"id": "13", "question": "Prop drilling means:", "options": ["direct API call", "passing props through many levels", "using useRef", "routing pages"], "answer": 1},
+    {"id": "14", "question": "In Car SVG, brand text color comes from:", "options": ["brandColor prop", "hardcoded red", "theme context", "bootstrap"], "answer": 0},
+    {"id": "15", "question": "When App state changes, child components using that state:", "options": ["never update", "re-render with new props", "crash", "reload browser"], "answer": 1},
+    {"id": "16", "question": "Which is true about props?", "options": ["mutable by child directly", "read-only in child", "only numbers allowed", "must come from API"], "answer": 1},
+    {"id": "17", "question": "In class04, which component renders list of posts?", "options": ["Car", "OurForm", "Stories", "main"], "answer": 2},
+    {"id": "18", "question": "React synthetic events are handled in:", "options": ["camelCase handlers", "snake_case handlers", "PHP handlers", "CSS selectors"], "answer": 0},
+    {"id": "19", "question": "Which value is shown in 'You want to search:' text?", "options": ["localStorage value only", "search state", "hardcoded title", "filtered length"], "answer": 1},
+    {"id": "20", "question": "Each question in this exam carries:", "options": ["0.5 mark", "1 mark", "2 marks", "5 marks"], "answer": 1}
+  ]
+}

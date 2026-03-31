@@ -1,0 +1,27 @@
+{
+  "examId": "exam3",
+  "title": "React Exam 3 - Hooks and Router",
+  "totalMarks": 20,
+  "questions": [
+    {"id": "1", "question": "In class05 App, search value is persisted using:", "options": ["cookies", "localStorage", "session var", "URL hash"], "answer": 1},
+    {"id": "2", "question": "useEffect with [search] dependency runs:", "options": ["only once", "on every render", "when search changes", "never"], "answer": 2},
+    {"id": "3", "question": "Counter component updates count every second using:", "options": ["setInterval in render", "setTimeout in useEffect", "CSS animation", "router"], "answer": 1},
+    {"id": "4", "question": "Students component uses nested destructuring in:", "options": ["state reducer", "props parameter", "fetch response", "event object"], "answer": 1},
+    {"id": "5", "question": "In class06 custom hook project, useStorage returns:", "options": ["[value, setValue]", "a class", "only boolean", "DOM node"], "answer": 0},
+    {"id": "6", "question": "Main purpose of custom hook useStorage is:", "options": ["routing", "persisting state in localStorage", "creating CSS", "typing checks"], "answer": 1},
+    {"id": "7", "question": "In Product component, products are loaded with:", "options": ["axios.post", "fetch API inside useEffect", "PHP include", "setTimeout only"], "answer": 1},
+    {"id": "8", "question": "In Cart component, remove item when quantity is 0 uses:", "options": ["map()", "filter()", "find()", "slice()"], "answer": 1},
+    {"id": "9", "question": "React Router setup in class06 uses:", "options": ["BrowserRouter, Routes, Route", "Switch only", "Hash API manually", "window.open"], "answer": 0},
+    {"id": "10", "question": "Navigation links are created with:", "options": ["<a href> only", "Link from react-router-dom", "button submit", "img tags"], "answer": 1},
+    {"id": "11", "question": "Route path '/products' renders:", "options": ["Home", "About", "Products component", "Footer"], "answer": 2},
+    {"id": "12", "question": "In Products route component, loading/error states are managed by:", "options": ["two useState variables", "CSS classes only", "context only", "reducer only"], "answer": 0},
+    {"id": "13", "question": "Why custom hooks are useful?", "options": ["They replace JSX", "They reuse stateful logic", "They compile faster only", "They remove need of props"], "answer": 1},
+    {"id": "14", "question": "In useStorage setValue, value can be:", "options": ["plain value or updater function", "only string", "only number", "only object with id"], "answer": 0},
+    {"id": "15", "question": "The cart item total is calculated as:", "options": ["price + quantity", "price * quantity", "price - quantity", "quantity / price"], "answer": 1},
+    {"id": "16", "question": "In router app, Footer is shown:", "options": ["only on home", "outside Routes so across pages", "only on products", "never"], "answer": 1},
+    {"id": "17", "question": "useEffect cleanup in Products returns function to:", "options": ["set theme", "mark cancelled request flow", "sort list", "dispatch action"], "answer": 1},
+    {"id": "18", "question": "A controlled input in React should use:", "options": ["defaultValue only", "value and onChange", "placeholder only", "name only"], "answer": 1},
+    {"id": "19", "question": "Which file often defines routes in these class projects?", "options": ["App.jsx", "index.css", "package-lock.json", "README.md"], "answer": 0},
+    {"id": "20", "question": "Per exam total marks are computed from:", "options": ["20 questions x 1 mark", "10 questions x 2 marks", "5 questions x 4 marks", "manual teacher input"], "answer": 0}
+  ]
+}

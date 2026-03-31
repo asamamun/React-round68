@@ -1,0 +1,27 @@
+{
+  "examId": "exam1",
+  "title": "React Exam 1 - Basics and JSX",
+  "totalMarks": 20,
+  "questions": [
+    {"id": "1", "question": "In the class01 counter app, which hook is used to manage count?", "options": ["useEffect", "useState", "useReducer", "useRef"], "answer": 1},
+    {"id": "2", "question": "What happens when the + button is clicked in class01?", "options": ["count is reset", "count decreases", "count increases by 1", "state is removed"], "answer": 2},
+    {"id": "3", "question": "Which syntax is used to render JavaScript value inside JSX?", "options": ["{{value}}", "[value]", "{value}", "<%value%>"], "answer": 2},
+    {"id": "4", "question": "In class02 App, list items are rendered using:", "options": ["for loop in HTML", "map()", "while loop", "switch"], "answer": 1},
+    {"id": "5", "question": "In class02 list rendering, each item should have a:", "options": ["style", "id attribute only", "key prop", "title"], "answer": 2},
+    {"id": "6", "question": "What is the purpose of htmlFor in JSX label?", "options": ["to style label", "to link label with input id", "to submit form", "to import HTML"], "answer": 1},
+    {"id": "7", "question": "In class02 Post, data is imported from:", "options": ["API only", "postArray.json", "localStorage", "sessionStorage"], "answer": 1},
+    {"id": "8", "question": "CountryTable uses c.code.toLowerCase() mainly for:", "options": ["sorting names", "forming flag image URL", "validation", "state update"], "answer": 1},
+    {"id": "9", "question": "Which statement about React components is true?", "options": ["Must return one root JSX tree", "Must be class only", "Cannot use JS", "Cannot import files"], "answer": 0},
+    {"id": "10", "question": "In JSX, class attribute is written as:", "options": ["class", "className", "cssClass", "classname()"], "answer": 1},
+    {"id": "11", "question": "What does map() return in React list rendering?", "options": ["string", "new array of JSX elements", "boolean", "number"], "answer": 1},
+    {"id": "12", "question": "In class02 App, search input is currently:", "options": ["controlled with state", "uncontrolled simple input", "disabled", "from context"], "answer": 1},
+    {"id": "13", "question": "What is a common reason to use key in list items?", "options": ["for bootstrap styles", "for faster bundling", "for stable identity during re-render", "for API auth"], "answer": 2},
+    {"id": "14", "question": "Which file usually mounts React app to DOM in Vite projects?", "options": ["index.css", "main.jsx", "vite.config.js", "package.json"], "answer": 1},
+    {"id": "15", "question": "In class01, count is shown in UI using:", "options": ["alert()", "console.log only", "JSX text interpolation", "HTML template engine"], "answer": 2},
+    {"id": "16", "question": "A React function component is typically:", "options": ["a JS function returning JSX", "an SQL query", "a PHP class", "a CSS rule"], "answer": 0},
+    {"id": "17", "question": "In JSX, inline style value is passed as:", "options": ["string only", "array", "object", "number only"], "answer": 2},
+    {"id": "18", "question": "Which action triggers re-render in React?", "options": ["updating state", "adding comment", "renaming folder", "opening DevTools"], "answer": 0},
+    {"id": "19", "question": "What is correct for event handler in JSX?", "options": ["onclick", "onClick", "on-click", "click"], "answer": 1},
+    {"id": "20", "question": "Total marks for one exam in this app is:", "options": ["10", "15", "20", "25"], "answer": 2}
+  ]
+}

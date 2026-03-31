@@ -1,0 +1,27 @@
+{
+  "examId": "exam4",
+  "title": "React Exam 4 - Children, Forms, Context, useRef",
+  "totalMarks": 20,
+  "questions": [
+    {"id": "1", "question": "In class07 react-children, content between <Daughter>...</Daughter> is accessed via:", "options": ["props.title", "props.children", "state.children", "useContext"], "answer": 1},
+    {"id": "2", "question": "Box component sets background color from:", "options": ["props.children", "localStorage", "URL param", "redux store"], "answer": 0},
+    {"id": "3", "question": "In StudentForm, handleSubmit uses event.preventDefault() to:", "options": ["reload page faster", "stop default form submission reload", "clear all CSS", "fetch API"], "answer": 1},
+    {"id": "4", "question": "StudentForm stores all field values in one state object using:", "options": ["setInputs(values => ({...values, [name]: value}))", "setInputs(name)", "push()", "Object.freeze()"], "answer": 0},
+    {"id": "5", "question": "In Context API example, context object is created by:", "options": ["useContext()", "createContext()", "useReducer()", "new Context()"], "answer": 1},
+    {"id": "6", "question": "ThemeProvider shares data using:", "options": ["props drilling only", "ThemeContext.Provider value", "window global", "router state"], "answer": 1},
+    {"id": "7", "question": "useTheme custom hook throws error when:", "options": ["theme is dark", "used outside provider", "toggle clicked twice", "children missing"], "answer": 1},
+    {"id": "8", "question": "Main problem Context API helps reduce:", "options": ["API latency", "prop drilling", "bundle size", "DOM size"], "answer": 1},
+    {"id": "9", "question": "useRef returns object with property:", "options": ["value", "current", "refValue", "state"], "answer": 1},
+    {"id": "10", "question": "Changing useRef.current typically:", "options": ["always re-renders", "does not trigger re-render", "throws error", "refreshes page"], "answer": 1},
+    {"id": "11", "question": "inputRef.current?.focus() is an example of:", "options": ["state update", "DOM access with ref", "context provider", "route guard"], "answer": 1},
+    {"id": "12", "question": "Which hook is used in UseRefExample for normal re-rendering counter?", "options": ["useMemo", "useState", "useReducer", "useCallback"], "answer": 1},
+    {"id": "13", "question": "renderTracker.current += 1 demonstrates:", "options": ["mutable value across renders", "immutable state", "router transition", "async fetch"], "answer": 0},
+    {"id": "14", "question": "In react-form, each input is controlled by:", "options": ["DOM only", "inputs state object", "URL", "PHP session"], "answer": 1},
+    {"id": "15", "question": "In select for gender, selected value is read from:", "options": ["inputs.gender", "document.cookie", "theme", "children"], "answer": 0},
+    {"id": "16", "question": "A component wrapped inside ThemeProvider can:", "options": ["consume context via useContext", "access SQL directly", "skip render always", "avoid JSX"], "answer": 0},
+    {"id": "17", "question": "Which is a typical use of children prop?", "options": ["store API key", "compose nested UI blocks", "define routes", "replace useState"], "answer": 1},
+    {"id": "18", "question": "In controlled form inputs, source of truth is:", "options": ["browser DOM", "React state", "CSS file", "HTML file"], "answer": 1},
+    {"id": "19", "question": "The context value in ThemeProvider includes:", "options": ["theme and toggleTheme", "only className", "only user id", "only route path"], "answer": 0},
+    {"id": "20", "question": "Each correct MCQ gives:", "options": ["0 mark", "1 mark", "2 marks", "depends on question"], "answer": 1}
+  ]
+}

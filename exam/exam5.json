@@ -1,0 +1,27 @@
+{
+  "examId": "exam5",
+  "title": "React Exam 5 - useReducer and Advanced Patterns",
+  "totalMarks": 20,
+  "questions": [
+    {"id": "1", "question": "useReducer returns:", "options": ["[state, dispatch]", "[value, setValue]", "only state", "only action"], "answer": 0},
+    {"id": "2", "question": "Reducer function arguments are usually:", "options": ["(action, state)", "(state, action)", "(props, state)", "(event, state)"], "answer": 1},
+    {"id": "3", "question": "In class09 reducer, ADD_STUDENT action does:", "options": ["removes student", "adds payload to students array", "changes batch only", "sorts subjects"], "answer": 1},
+    {"id": "4", "question": "REMOVE_SUBJECT logic uses:", "options": ["filter()", "map()", "reduce()", "sort()"], "answer": 0},
+    {"id": "5", "question": "Dispatch call format is:", "options": ["dispatch(type, payload)", "dispatch({ type, payload })", "dispatch(payload)", "dispatch() only"], "answer": 1},
+    {"id": "6", "question": "In class09 app, round change action type is:", "options": ["SET_ROUND", "UPDATE_ROUND", "CHANGE_ROUND", "ROUND_CHANGE_NOW"], "answer": 2},
+    {"id": "7", "question": "Default case in reducer should generally:", "options": ["return current state", "delete state", "throw syntax error always", "reload page"], "answer": 0},
+    {"id": "8", "question": "In useReducer shopping cart example, CLEAR_CART should:", "options": ["increase quantity", "empty cart items", "set theme", "change route"], "answer": 1},
+    {"id": "9", "question": "When state has multiple related fields, preferred hook often is:", "options": ["useReducer", "useId", "useImperativeHandle", "useDebugValue only"], "answer": 0},
+    {"id": "10", "question": "Reducer should be:", "options": ["pure function", "DOM-manipulating function", "async component", "CSS module"], "answer": 0},
+    {"id": "11", "question": "In class05 hacker stories app, storiesReducer has fetch init/success/failure for:", "options": ["theme", "API request lifecycle", "routing", "children"], "answer": 1},
+    {"id": "12", "question": "REMOVE_STORY in reducer updates data by:", "options": ["concat()", "filtering out objectID", "sortBy title", "setTimeout"], "answer": 1},
+    {"id": "13", "question": "useCallback(handleFetchStories, [urls]) helps by:", "options": ["creating CSS", "memoizing function based on dependencies", "changing reducer type", "removing state"], "answer": 1},
+    {"id": "14", "question": "In list sorting example, SORTS object stores:", "options": ["API endpoints", "sort functions", "route links", "state hooks"], "answer": 1},
+    {"id": "15", "question": "A good action object should include:", "options": ["type and optional payload", "only payload", "only CSS class", "HTML id only"], "answer": 0},
+    {"id": "16", "question": "If unknown action type is dispatched in strict reducer design:", "options": ["silently ignore always", "can throw Error", "must reload app", "must call API"], "answer": 1},
+    {"id": "17", "question": "In shopping cart reducers, totals are often derived via:", "options": ["reduce()", "find()", "join()", "split()"], "answer": 0},
+    {"id": "18", "question": "Which is true about dispatch?", "options": ["mutates state directly", "sends action to reducer", "only works in class components", "returns JSX"], "answer": 1},
+    {"id": "19", "question": "In this exam app, leaderboard sorting is by:", "options": ["name asc only", "score descending", "student ID descending", "submission text length"], "answer": 1},
+    {"id": "20", "question": "Maximum score per exam in this system is:", "options": ["5", "10", "20", "100"], "answer": 2}
+  ]
+}
