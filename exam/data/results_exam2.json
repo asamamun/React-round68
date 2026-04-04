@@ -1,1 +1,16 @@
-[]
+[
+    {
+        "studentName": "MD. Mahady Hasan",
+        "studentId": "1293416",
+        "score": 19,
+        "totalMarks": 20,
+        "submittedAt": "2026-04-01 18:49:58"
+    },
+    {
+        "studentName": "Md Akash Ahmed",
+        "studentId": "1292975",
+        "score": 17,
+        "totalMarks": 20,
+        "submittedAt": "2026-04-01 19:06:29"
+    }
+]
